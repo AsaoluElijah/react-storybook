@@ -6,17 +6,9 @@ const config = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     "@storybook/addon-interactions",
-    // "@storybook/addon-storysource",
-    {
-      name: "@storybook/addon-storysource",
-      options: {
-        loaderOptions: {
-          injectStoryParameters: false,
-        },
-      },
-    },
+    "@storybook/addon-storysource",
     "@storybook/addon-a11y",
-    // "@storybook/addon-docs",
+    "@storybook/addon-storyshots ",
   ],
   framework: {
     name: "@storybook/react-vite",
